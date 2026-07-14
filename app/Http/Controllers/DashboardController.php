@@ -17,7 +17,7 @@ class DashboardController extends Controller
 
     public function index()
     {
-        $defaultCodes = SystemSetting::get('dashboard_default_countries', ['ID','CN','DE','AU','US','JP']);
+       $defaultCodes = ['ID'];
 
         // Hitung risk scores untuk negara default
         $riskScores = [];
