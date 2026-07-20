@@ -161,3 +161,4 @@
 #19 D:/Global Supply/supply-chain-platform/artisan(17): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
 #20 {main}
 "} 
+[2026-07-19 01:46:54] local.ERROR: [worldbank] cURL error 28: Operation timed out after 15004 milliseconds with 0 bytes received (see https://curl.se/libcurl/c/libcurl-errors.html) for https://api.worldbank.org/v2/country/ID/indicator/NY.GDP.PCAP.CD?format=json&date=2025%3A2025&per_page=1  
